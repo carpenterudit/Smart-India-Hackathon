@@ -8,7 +8,33 @@ body {
     background-color: #e440e7;
 }
 
+header {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
 h1 {
     font-size: 50px;
     color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+ul {
+    border: 2px solid double;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
 }
